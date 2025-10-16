@@ -5,7 +5,9 @@ const video_source = 'https://github.com/gradio-app/gradio/raw/main/gradio/media
 const response = await fetch(video_source);
 const video_data = await response.blob();
 
-const client = await Client.connect("http://localhost:7860");
+const gradio_server_url = "http://localhost:7860"; // change to your gradio server url as the output of running `gradio server.py`
+
+const client = await Client.connect(gradio_server_url);
 
 const result = await client.predict("/run_video", {
     video: video_data,
