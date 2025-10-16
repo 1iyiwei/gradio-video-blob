@@ -1,0 +1,10 @@
+.DS_Store
+.parcel-cache
+.venv*/
+.vscode/
+__pycache__/
+dist/
+node_modules/
+ssl/
+venv*/
+.gradio/

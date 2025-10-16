@@ -1,0 +1,11 @@
+{
+    "name": "foo",
+    "version": "1.0.0",
+    "type": "module",
+    "dependencies": {
+        "@gradio/client": "^1.19.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.6.1"
+    }
+}
