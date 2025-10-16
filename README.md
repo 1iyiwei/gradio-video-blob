@@ -1,4 +1,4 @@
-# Gradio video blob example
+# Gradio API video example
 
 ## Server
 
