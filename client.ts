@@ -12,7 +12,7 @@ const gradio_server_url = "http://localhost:7860"; // change to your gradio serv
 const client = await Client.connect(gradio_server_url);
 
 const result = await client.predict("/run_video", {
-    video: video_data, // handle_file(video_data),
+    video: handle_file(video_data),
 });
 
 console.log(result.data);
