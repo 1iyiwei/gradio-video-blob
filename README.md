@@ -21,12 +21,8 @@ Run
 tsx client.ts
 ```
 
-I will get a pydantic error here about VideoData.
-
 ### Python
 
 ```
 python3 client.py
 ```
-
-This will run without problem.
