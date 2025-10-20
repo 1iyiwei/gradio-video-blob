@@ -10,8 +10,8 @@ client = Client(gradio_server_url)
 # change to your gradio server url as the output of running `gradio server.py`
 
 result = client.predict(
-    video={"video": handle_file(video_source)},
-    text="hello from python!",
+    input_video={"video": handle_file(video_source)},
+    input_text="hello from python!",
     api_name="/run_video"
 )
 

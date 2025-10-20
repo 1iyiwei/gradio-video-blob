@@ -2,9 +2,9 @@
 
 import gradio as gr
 
-def run_video(video, text):
-    print(f"video: {video}, text: {text}")
-    return video, text
+def run_video(input_video, input_text):
+    print(f"video: {input_video}, text: {input_text}")
+    return input_video, input_text
 
 def blocks():
     with gr.Blocks() as demo:
